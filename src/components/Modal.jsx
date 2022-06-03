@@ -18,7 +18,6 @@ export default function Modal(props) {
             centered
         >
             { children }
-            <Button variant="danger" onClick={closeModal}>Close</Button>
         </BootstrapModal>
     )
 }
