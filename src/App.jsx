@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Menu from './components/Menu';
 import Modal from './components/Modal';
 import FormAddTweet from './components/FormAddTweet';
+import TweetsList from './components/TweetsList';
 
 // Redux
 import store from './redux/store';
@@ -14,6 +15,7 @@ function App() {
       <Menu />
       <Container className='mt-5'>
         <h1 className='text-center'>Tweets!</h1>
+        <TweetsList />
       </Container>
       <Modal>
         <FormAddTweet />
